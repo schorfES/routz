@@ -1,0 +1,14 @@
+.git/
+.github/
+coverage/
+web/
+.editorconfig
+.eslintignore
+.eslintrc
+.gitattributes
+.gitignore
+.nvmrc
+codecov.yml
+jest.config.js
+Makefile
+tsconfig.json
