@@ -1,0 +1,34 @@
+{
+  "name": "routz",
+  "version": "0.0.0",
+  "description": "Define your SPA routes in a single source of truth - use them everywhere.",
+  "main": "./dist/routz.js",
+  "types": "./dist/routz.d.ts",
+  "scripts": {
+    "validate": "make validate",
+    "test": "make tests",
+    "build": "make build",
+    "release": "make release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schorfES/routz.git"
+  },
+  "author": "Norman Rusch (schorfES)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schorfES/routz/issues"
+  },
+  "homepage": "https://github.com/schorfES/routz#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.13",
+    "@typescript-eslint/eslint-plugin": "^4.29.0",
+    "@typescript-eslint/parser": "^4.29.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
