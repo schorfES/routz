@@ -30,9 +30,9 @@ The _routz_ package exposes a single `define` function that defines the applicat
 import { define } from 'routz';
 
 const { receive, resolve } = define({
-	'index': '/[locale?]',
-	'blog:list: '/[locale?]/blog',
-	'blog:article': '/[locale?]/blog/[slug]',
+  'index': '/[locale?]',
+  'blog:list: '/[locale?]/blog',
+  'blog:article': '/[locale?]/blog/[slug]',
 });
 
 export { receive, resolve };
@@ -50,15 +50,15 @@ import React from 'react';
 import { resolve } from 'app/urls';
 
 export const List = ({ articles }) => (
-	<ul>
-		{articles.map(({ slug, title }) => (
-			<li key={slug}>
-				<Link href={resolve('blog:article', { slug })}>
-					<a>{title}</a>
-				</Link>
-			</li>
-		))}
-	</ul>
+  <ul>
+    {articles.map(({ slug, title }) => (
+      <li key={slug}>
+        <Link href={resolve('blog:article', { slug })}>
+          <a>{title}</a>
+        </Link>
+      </li>
+    ))}
+  </ul>
 );
 ```
 
