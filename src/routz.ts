@@ -80,9 +80,10 @@ export function define(routes: Routes): Definition {
 			path = path.replace(REGEXP_SLASH_ENDOFPATH, '');
 		}
 
-		if (!REGEXP_SLASH_ENDOFPATH.test(path) && REGEXP_SLASH_ENDOFPATH.test(route)) {
-			path = `${path}/`;
-		}
+		// This case will never apply based on the definition format of a path...
+		// if (!REGEXP_SLASH_ENDOFPATH.test(path) && REGEXP_SLASH_ENDOFPATH.test(route)) {
+		// 	path = `${path}/`;
+		// }
 
 		return path;
 	};
