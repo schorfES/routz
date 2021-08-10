@@ -1,6 +1,6 @@
 {
   "name": "routz",
-  "version": "0.0.0",
+  "version": "1.0.0-0",
   "description": "Define your SPA routes in a single source of truth - use them everywhere.",
   "main": "./dist/routz.js",
   "types": "./dist/routz.d.ts",
