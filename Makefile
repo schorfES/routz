@@ -22,3 +22,8 @@ build:
 
 
 release: validate tests build
+	node_modules/.bin/np \
+		--no-yarn \
+		--no-tests \
+		--any-branch \
+		--tag
