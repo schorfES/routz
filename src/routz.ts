@@ -16,13 +16,13 @@ export type Definition = {
 };
 
 /**
- * Defines the routes and returns scoped `recieve` and `resolve` functions that
- * access the defined routes.
+ * Defines the routes and returns scoped `receive` and `resolve` functions that
+ * access the given routes.
  */
 export function define(routes: Routes): Definition {
 
 	/**
-	 * Returns the route defintion by a name.
+	 * Returns the route defintion by a given name.
 	 *
 	 * @throws {Error} when given name is not found in routes.
 	 */
@@ -36,11 +36,12 @@ export function define(routes: Routes): Definition {
 	};
 
 	/**
-	 * Builds a url for a route by name and params. Params are dynamic parts of a
-	 * url that are defined in the format `[param]`. Optional params are defined by
-	 * a question mark at the end like `[optionalParam?]`. The params need to be
-	 * passed as a key/value object, optional params doesn't need to be defined in
-	 * this object while missing regular params will throw an error.
+	 * This builds a path for a route by name and params. Params are dynamic parts
+	 * of a single path, that are defined in the format: `[param]`. Optional params
+	 * are defined by a question mark at the end like: `[optionalParam?]`. The
+	 * params need to be passed as a key/value object. Optional params are not
+	 * required to be defined in this object, but missing params will throw an
+	 * error.
 	 *
 	 * @throws {Error} when given name is not found in routes.
 	 * @throws {Error} when given params are not matching the route definition.
