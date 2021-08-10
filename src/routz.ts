@@ -1,12 +1,12 @@
-export type RouteDefinition = string;
-
 export type Route = string;
 
-export type Routes = Record<Route, RouteDefinition>;
+export type RouteDefintion = string;
+
+export type Routes = Record<Route, RouteDefintion>;
 
 export type Params = Record<string, string> | null;
 
-export type Receiver = (name: string) => RouteDefinition;
+export type Receiver = (name: string) => RouteDefintion;
 
 export type Resolver = (name: string, params?: Params) => Route;
 
