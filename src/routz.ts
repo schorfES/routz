@@ -46,7 +46,7 @@ export function define(routes: Routes): Definition {
 	 * @throws {Error} when given name is not found in routes.
 	 * @throws {Error} when given params are not matching the route definition.
 	 */
-	const resolve: Resolver = (name, params) => {
+	const resolve: Resolver = (name, params = {}) => {
 		const REGEXP_PARAMS = /\[([a-zA-Z]*)(\??)\]/g;
 		const REGEXP_SLASH_SANITIZED = /\/(\/*)/g;
 		const REGEXP_SLASH_ENDOFPATH = /\/$/;
