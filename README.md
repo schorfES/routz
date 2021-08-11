@@ -31,7 +31,7 @@ import { define } from 'routz';
 
 const { receive, resolve } = define({
   'index': '/[locale?]',
-  'blog:list: '/[locale?]/blog',
+  'blog:list': '/[locale?]/blog',
   'blog:article': '/[locale?]/blog/[slug]',
 });
 
