@@ -4,6 +4,7 @@
 [![Coverage Status on Codecov](https://codecov.io/gh/schorfES/routz/branch/master/graph/badge.svg)](https://codecov.io/gh/schorfES/routz)
 [![Known Vulnerabilities](https://snyk.io/test/github/schorfES/routz/badge.svg)](https://snyk.io/test/github/schorfES/routz)
 [![Minified gzipped size](https://badgen.net/bundlephobia/minzip/routz)](https://bundlephobia.com/result?p=routz)
+![Types included](https://badgen.net/npm/types/tslib)
 
 Define your SPA routes in a single source of truth - use them everywhere.
 
