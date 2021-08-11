@@ -5,6 +5,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/schorfES/routz/badge.svg)](https://snyk.io/test/github/schorfES/routz)
 [![Minified gzipped size](https://badgen.net/bundlephobia/minzip/routz)](https://bundlephobia.com/result?p=routz)
 ![Types included](https://badgen.net/npm/types/tslib)
+[![License MIT](https://badgen.net/npm/license/routz)](https://github.com/schorfES/routz/blob/main/LICENSE)
 
 Define your SPA routes in a single source of truth - use them everywhere.
 
