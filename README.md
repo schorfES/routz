@@ -1,7 +1,7 @@
 # Routz
 
 [![CI Status](https://github.com/schorfES/routz/actions/workflows/ci.yml/badge.svg)](https://github.com/schorfES/routz/actions)
-[![Coverage Status on Codecov](https://codecov.io/gh/schorfES/routz/branch/master/graph/badge.svg)](https://codecov.io/gh/schorfES/routz)
+[![Coverage Status on Codecov](https://codecov.io/gh/schorfES/routz/branch/main/graph/badge.svg)](https://codecov.io/gh/schorfES/routz)
 [![Known Vulnerabilities](https://snyk.io/test/github/schorfES/routz/badge.svg)](https://snyk.io/test/github/schorfES/routz)
 [![Minified gzipped size](https://badgen.net/bundlephobia/minzip/routz)](https://bundlephobia.com/result?p=routz)
 ![Types included](https://badgen.net/npm/types/tslib)
